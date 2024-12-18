@@ -1,5 +1,8 @@
 # Assetto Corsa Python Documentation
 
+## Getting started
+Make sure to checkout the getting started App Tutorial: https://github.com/ckendell/ACAppTutorial/blob/master/ACAppTutorial.md
+
 ## Importing the `ac` Module
 The `ac` module provides various functions to retrieve information and interact with the game. Below is the documentation for the available functions.
 
@@ -612,3 +615,8 @@ car_id = 0  # Player's car
 if ac.isConnected(car_id):
     print(f"Speed: {ac.getCarState(car_id, 'SpeedKMH')}")
     print(f"RPM: {ac.getCarState(car_id, 'RPM')}")
+```
+
+### References
+
+- **AC Python Documentation**: [AC Python Documentation on scribd](https://www.scribd.com/document/407841891/ACPythonDocumentation-pdf)
